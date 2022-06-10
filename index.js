@@ -45,3 +45,8 @@ app.use("/api/categories", categoryRoute);
 app.listen("5000", () => {
   console.log("Backend is running 🎄✨");
 });
+
+app.get('/', function (request, response)
+ { 
+    response.send('Hello World ✨🎉✨')
+ }); 
